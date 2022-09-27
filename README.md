@@ -7,4 +7,8 @@ The neural network is trained to recognize (in a fixed frame image) a circle, an
 
 Due to ease of implementation and demonstration, the video interface and image formatting is done by an external SbC(Raspberry pi 4). The formatted data is inputted into the FPGA by a shift register. The details about the input device and its details can be found on: <Link pending>
   
+The raw verilog file can be found: NeuralNetwork ALU 25.4.2022.srcs => sources_1/new => ModularNeuralNet.v
+  
+And the XDC file: NeuralNetwork ALU 25.4.2022.srcs => constrs_1/new => io2.xdc 
+  
   
